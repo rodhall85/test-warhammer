@@ -3,7 +3,7 @@ import React from 'react';
 import Tutorial from './components/Tutorial';
 import Heading from './components/Heading';
 
-import styles from './appStyles.module.css';
+import './appStyles.module.css';
 
 function App() {
   return (

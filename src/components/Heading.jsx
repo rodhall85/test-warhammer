@@ -9,7 +9,7 @@ const Heading = ({ image, text }) => {
 
     return (
         <div className={styles.heading} onClick={() => raiseGaEvent(image)}> 
-            <img src={require(`../images/${ image }.jpg`)} />
+            <img src={require(`../images/${ image }.jpg`)} alt={ `Learning how to ${image} with Warhammer models` } />
             <div className={styles.headingText}>{ text }</div>
         </div>
     )
