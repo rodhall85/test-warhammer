@@ -1,0 +1,31 @@
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #666;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.headingText {
+    display: inline-block;
+    width: 660px;
+    height: 200px;
+    position: fixed;
+    box-sizing: border-box;
+    font-size: 4em;
+    padding: 50px;
+}
+
+
